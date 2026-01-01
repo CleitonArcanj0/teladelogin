@@ -1,5 +1,5 @@
 @charset 'UTF-8';
-
+@import url('https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 /*
     Paletas de cores:
     laranja: #FF6600;
@@ -11,7 +11,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Sansation";
 
 }
 
@@ -44,6 +44,9 @@ body {
     max-height: 600px;
     background-color: #2f2840;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+
+    transition: width .3s, heigth .3s;
+    transition-timing-function: ease;
 }
 
 form {
@@ -53,7 +56,7 @@ form {
 #conteiner-formulario>h1 {
     color: #ff6600;
     text-align: center;
-    font-size: 2.9em;
+    font-size: 3.9em;
     padding: 8px;
     margin-top: 10px;
 }
