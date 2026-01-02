@@ -84,9 +84,9 @@ form {
     padding-left: 14px;
     align-content: center ;
     position: absolute;
-    transform: translateY(-32%) translateX(-30%);
     background-color: #ff6600;
     border-radius: 0 10px 10px 0;
+    transform: translateY(-32%) translateX(-30%);
 }
 
 
@@ -98,8 +98,8 @@ form {
     border: hidden;
     border-radius: 10px;
     box-sizing: border-box;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.411);
-
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.411);
+    
 }
 
 .icons {

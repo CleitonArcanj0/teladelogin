@@ -1,7 +1,7 @@
 @charset 'UTF-8';
 
 @media screen and (min-width: 768px) {
-  
+
     #login {
         width: 80vw;
     }
@@ -9,7 +9,8 @@
     #login>#imagem {
         float: left;
         width: 54%;
-        height: 430px;
+        height: 450px;
+        border-radius: 10px 10px;
 
     }
 
@@ -23,15 +24,16 @@
 }
 
 @media screen and (min-width: 992px) {
-   
+
     #login {
-        width: 980px;
+        width: 910px;
     }
 
     #login>#imagem {
         float: right;
         width: 54%;
-        height: 430px;
+        height: 460px;
+        border-radius: 10px 10px;
     }
 
     #conteiner-formulario {
