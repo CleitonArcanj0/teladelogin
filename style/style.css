@@ -1,5 +1,6 @@
 @charset 'UTF-8';
 @import url('https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 /*
     Paletas de cores:
     laranja: #FF6600;
@@ -28,7 +29,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    border-radius:  10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
     height: 190px;
 }
 
@@ -50,7 +51,7 @@ body {
 }
 
 form {
-    padding: 12px;
+    padding: 15px;
 }
 
 #conteiner-formulario>h1 {
@@ -71,8 +72,21 @@ form {
 }
 
 .cx-entrada {
+    position: relative;
     margin-bottom: 2px;
 
+}
+.cx-entrada .material-symbols-outlined{
+    top: 50%;
+    left: 84%;
+    height:57.5%;
+    width: 24%;
+    padding-left: 14px;
+    align-content: center ;
+    position: absolute;
+    transform: translateY(-32%) translateX(-30%);
+    background-color: #ff6600;
+    border-radius: 0 10px 10px 0;
 }
 
 
@@ -80,7 +94,7 @@ form {
     width: 100%;
     outline: none;
     padding: 15px;
-    margin: 6px 0;
+    margin: 10px 0;
     border: hidden;
     border-radius: 10px;
     box-sizing: border-box;
@@ -88,14 +102,18 @@ form {
 
 }
 
+.icons {
+    display: inline-block;
+}
+
 .cx-button {
-    margin-top: 25px;
+    margin-top: 3px;
 
 }
 
 .button {
     display: block;
-    margin: 10px auto;
+    margin: 15px auto;
     width: 100%;
     height: 45px;
     font-weight: 800;
@@ -104,6 +122,7 @@ form {
     border-radius: 10px;
     letter-spacing: 1px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.548);
+
 }
 
 .button:hover {
