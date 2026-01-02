@@ -39,13 +39,13 @@ body {
     top: 50%;
     overflow: hidden;
     border-radius: 25px;
-    transform: translate(-50%, -50%);
-
+    
     width: 350px;
     max-height: 600px;
     background-color: #2f2840;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
-
+    
+    transform: translate(-50%, -50%);
     transition: width .3s, heigth .3s;
     transition-timing-function: ease;
 }
